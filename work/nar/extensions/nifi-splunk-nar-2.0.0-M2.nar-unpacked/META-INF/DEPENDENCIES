@@ -1,0 +1,47 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+nifi-splunk-nar
+
+
+From: 'an unknown organization'
+
+  - Gson (https://github.com/google/gson/gson) com.google.code.gson:gson:jar:2.10.1
+    License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - opencsv (http://opencsv.sf.net) net.sf.opencsv:opencsv:jar:2.3
+    License: Apache 2  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+From: 'Apache NiFi Project' (https://nifi.apache.org/)
+
+  - nifi-event-put (https://nifi.apache.org/nifi-nar-bundles/nifi-extension-utils/nifi-event-put) org.apache.nifi:nifi-event-put:jar:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-event-transport (https://nifi.apache.org/nifi-nar-bundles/nifi-extension-utils/nifi-event-transport) org.apache.nifi:nifi-event-transport:jar:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-splunk-processors (https://nifi.apache.org/nifi-nar-bundles/nifi-standard-shared-bundle/nifi-standard-shared-bom/nifi-splunk-bundle/nifi-splunk-processors) org.apache.nifi:nifi-splunk-processors:jar:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-standard-shared-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-standard-shared-bundle/nifi-standard-shared-nar) org.apache.nifi:nifi-standard-shared-nar:nar:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+
+From: 'Splunk, Inc.' (http://dev.splunk.com)
+
+  - splunk (https://dev.splunk.com/enterprise/docs/devtools/java/sdk-java/splunk) com.splunk:splunk:jar:1.9.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+From: 'The Apache Software Foundation' (https://www.apache.org/)
+
+  - Apache Commons CLI (https://commons.apache.org/proper/commons-cli/) commons-cli:commons-cli:jar:1.6.0
+    License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+
+

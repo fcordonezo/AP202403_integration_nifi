@@ -1,0 +1,82 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+nifi-cassandra-nar
+
+
+From: 'an unknown organization'
+
+  - DataStax Java Driver for Apache Cassandra - Core (https://github.com/datastax/java-driver/cassandra-driver-core) com.datastax.cassandra:cassandra-driver-core:jar:3.11.5
+    License: Apache 2  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - DataStax Java Driver for Apache Cassandra - Extras (https://github.com/datastax/java-driver/cassandra-driver-extras) com.datastax.cassandra:cassandra-driver-extras:bundle:3.11.5
+    License: Apache 2  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - jffi (http://github.com/jnr/jffi) com.github.jnr:jffi:jar:1.2.16
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - jffi (http://github.com/jnr/jffi) com.github.jnr:jffi:jar:1.2.16
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - jnr-constants (http://github.com/jnr/jnr-constants) com.github.jnr:jnr-constants:jar:0.9.9
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - jnr-ffi (http://github.com/jnr/jnr-ffi) com.github.jnr:jnr-ffi:jar:2.1.7
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - jnr-posix (http://nexus.sonatype.org/oss-repository-hosting.html/jnr-posix) com.github.jnr:jnr-posix:jar:3.0.44
+    License: Common Public License - v 1.0  (http://www-128.ibm.com/developerworks/library/os-cpl.html)
+    License: GNU General Public License Version 2  (http://www.gnu.org/copyleft/gpl.html)
+    License: GNU Lesser General Public License Version 2.1  (http://www.gnu.org/licenses/lgpl.html)
+
+  - jnr-x86asm (http://github.com/jnr/jnr-x86asm) com.github.jnr:jnr-x86asm:jar:1.0.2
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+
+  - Metrics Core (http://metrics.codahale.com/metrics-core/) io.dropwizard.metrics:metrics-core:bundle:3.2.2
+    License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+
+
+From: 'Apache NiFi Project' (https://nifi.apache.org/)
+
+  - nifi-cassandra-processors (https://nifi.apache.org/nifi-nar-bundles/nifi-standard-shared-bundle/nifi-standard-shared-bom/nifi-cassandra-bundle/nifi-cassandra-processors) org.apache.nifi:nifi-cassandra-processors:jar:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-cassandra-services-api-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-standard-shared-bundle/nifi-standard-shared-bom/nifi-cassandra-bundle/nifi-cassandra-services-api-nar) org.apache.nifi:nifi-cassandra-services-api-nar:nar:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-record (https://nifi.apache.org/nifi-commons/nifi-record) org.apache.nifi:nifi-record:jar:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+
+From: 'ObjectWeb' (http://www.objectweb.org/)
+
+  - ASM Analysis (http://asm.objectweb.org/asm-analysis/) org.ow2.asm:asm-analysis:jar:5.0.3
+    License: BSD  (http://asm.objectweb.org/license.html)
+
+  - ASM Commons (http://asm.objectweb.org/asm-commons/) org.ow2.asm:asm-commons:jar:5.0.3
+    License: BSD  (http://asm.objectweb.org/license.html)
+
+  - ASM Tree (http://asm.objectweb.org/asm-tree/) org.ow2.asm:asm-tree:jar:5.0.3
+    License: BSD  (http://asm.objectweb.org/license.html)
+
+  - ASM Util (http://asm.objectweb.org/asm-util/) org.ow2.asm:asm-util:jar:5.0.3
+    License: BSD  (http://asm.objectweb.org/license.html)
+
+
+From: 'OW2' (http://www.ow2.org/)
+
+  - asm (http://asm.ow2.io/) org.ow2.asm:asm:jar:9.6
+    License: BSD-3-Clause  (https://asm.ow2.io/license.html)
+
+
+From: 'The Apache Software Foundation' (https://www.apache.org/)
+
+  - Apache Avro (https://avro.apache.org) org.apache.avro:avro:bundle:1.11.3
+    License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+
+

@@ -1,0 +1,125 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+nifi-site-to-site-reporting-nar
+
+
+From: 'an unknown organization'
+
+  - Metrics Core (https://metrics.dropwizard.io/metrics-core) io.dropwizard.metrics:metrics-core:bundle:4.2.19
+    License: Apache License 2.0  (https://www.apache.org/licenses/LICENSE-2.0.html)
+
+  - JVM Integration for Metrics (https://metrics.dropwizard.io/metrics-jvm) io.dropwizard.metrics:metrics-jvm:bundle:4.2.19
+    License: Apache License 2.0  (https://www.apache.org/licenses/LICENSE-2.0.html)
+
+  - swagger-annotations (https://github.com/swagger-api/swagger-core/modules/swagger-annotations) io.swagger.core.v3:swagger-annotations:jar:2.2.20
+    License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+
+
+From: 'Apache NiFi Project' (https://nifi.apache.org/)
+
+  - c2-protocol-component-api (https://nifi.apache.org/c2/c2-protocol/c2-protocol-component-api) org.apache.nifi:c2-protocol-component-api:jar:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-avro-record-utils (https://nifi.apache.org/nifi-nar-bundles/nifi-extension-utils/nifi-record-utils/nifi-avro-record-utils) org.apache.nifi:nifi-avro-record-utils:jar:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-client-dto (https://nifi.apache.org/nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-client-dto) org.apache.nifi:nifi-client-dto:jar:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-metrics (https://nifi.apache.org/nifi-commons/nifi-metrics) org.apache.nifi:nifi-metrics:jar:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-record (https://nifi.apache.org/nifi-commons/nifi-record) org.apache.nifi:nifi-record:jar:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-reporting-utils (https://nifi.apache.org/nifi-nar-bundles/nifi-extension-utils/nifi-reporting-utils) org.apache.nifi:nifi-reporting-utils:jar:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-security-cert (https://nifi.apache.org/nifi-commons/nifi-security-cert) org.apache.nifi:nifi-security-cert:jar:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-security-socket-ssl (https://nifi.apache.org/nifi-commons/nifi-security-socket-ssl) org.apache.nifi:nifi-security-socket-ssl:jar:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-security-ssl (https://nifi.apache.org/nifi-commons/nifi-security-ssl) org.apache.nifi:nifi-security-ssl:jar:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-site-to-site-client (https://nifi.apache.org/nifi-commons/nifi-site-to-site-client) org.apache.nifi:nifi-site-to-site-client:jar:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-site-to-site-reporting-task (https://nifi.apache.org/nifi-nar-bundles/nifi-standard-shared-bundle/nifi-standard-shared-bom/nifi-site-to-site-reporting-bundle/nifi-site-to-site-reporting-task) org.apache.nifi:nifi-site-to-site-reporting-task:jar:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-standard-record-utils (https://nifi.apache.org/nifi-nar-bundles/nifi-extension-utils/nifi-record-utils/nifi-standard-record-utils) org.apache.nifi:nifi-standard-record-utils:jar:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-standard-shared-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-standard-shared-bundle/nifi-standard-shared-nar) org.apache.nifi:nifi-standard-shared-nar:nar:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-xml-processing (https://nifi.apache.org/nifi-commons/nifi-xml-processing) org.apache.nifi:nifi-xml-processing:jar:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+
+From: 'Eclipse Foundation' (https://www.eclipse.org)
+
+  - istack common utility code runtime (https://projects.eclipse.org/projects/ee4j/istack-commons/istack-commons-runtime) com.sun.istack:istack-commons-runtime:jar:4.1.2
+    License: Eclipse Distribution License - v 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+
+  - Jakarta Activation API (https://github.com/jakartaee/jaf-api) jakarta.activation:jakarta.activation-api:jar:2.1.2
+    License: EDL 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+
+  - Jakarta XML Binding API (https://github.com/eclipse-ee4j/jaxb-api/jakarta.xml.bind-api) jakarta.xml.bind:jakarta.xml.bind-api:jar:4.0.1
+    License: Eclipse Distribution License - v 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+
+  - Angus Activation Registries (https://github.com/eclipse-ee4j/angus-activation/angus-activation) org.eclipse.angus:angus-activation:jar:2.0.1
+    License: EDL 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+
+  - JAXB Core (https://eclipse-ee4j.github.io/jaxb-ri/) org.glassfish.jaxb:jaxb-core:jar:4.0.4
+    License: Eclipse Distribution License - v 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+
+  - JAXB Runtime (https://eclipse-ee4j.github.io/jaxb-ri/) org.glassfish.jaxb:jaxb-runtime:jar:4.0.4
+    License: Eclipse Distribution License - v 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+
+  - TXW2 Runtime (https://eclipse-ee4j.github.io/jaxb-ri/) org.glassfish.jaxb:txw2:jar:4.0.4
+    License: Eclipse Distribution License - v 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+
+
+From: 'Oracle' (http://www.oracle.com)
+
+  - JSR 374 (JSON Processing) API (https://javaee.github.io/jsonp) javax.json:javax.json-api:bundle:1.1.4
+    License: Dual license consisting of the CDDL v1.1 and GPL v2  (https://oss.oracle.com/licenses/CDDL+GPL-1.1)
+
+  - JSR 374 (JSON Processing) Default Provider (https://javaee.github.io/jsonp) org.glassfish:javax.json:bundle:1.1.4
+    License: Dual license consisting of the CDDL v1.1 and GPL v2  (https://oss.oracle.com/licenses/CDDL+GPL-1.1)
+
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+
+  - Apache HttpAsyncClient (http://hc.apache.org/httpcomponents-asyncclient) org.apache.httpcomponents:httpasyncclient:jar:4.1.5
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - Apache HttpClient (http://hc.apache.org/httpcomponents-client-ga) org.apache.httpcomponents:httpclient:jar:4.5.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - Apache HttpCore (http://hc.apache.org/httpcomponents-core-ga) org.apache.httpcomponents:httpcore:jar:4.4.16
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - Apache HttpCore NIO (http://hc.apache.org/httpcomponents-core-ga) org.apache.httpcomponents:httpcore-nio:jar:4.4.15
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+From: 'The Apache Software Foundation' (https://www.apache.org/)
+
+  - Apache Avro (https://avro.apache.org) org.apache.avro:avro:bundle:1.11.3
+    License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - Apache Commons CSV (https://commons.apache.org/proper/commons-csv/) org.apache.commons:commons-csv:jar:1.10.0
+    License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+
+

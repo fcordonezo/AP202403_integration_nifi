@@ -1,0 +1,44 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+nifi-dropbox-processors-nar
+
+
+From: 'an unknown organization'
+
+  - Dropbox SDK Java (https://github.com/dropbox/dropbox-sdk-java/) com.dropbox.core:dropbox-core-sdk:jar:5.4.4
+    License: MIT  (http://opensource.org/licenses/MIT)
+
+
+From: 'Apache NiFi Project' (https://nifi.apache.org/)
+
+  - nifi-conflict-resolution (https://nifi.apache.org/nifi-nar-bundles/nifi-extension-utils/nifi-conflict-resolution) org.apache.nifi:nifi-conflict-resolution:jar:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-dropbox-processors (https://nifi.apache.org/nifi-nar-bundles/nifi-standard-shared-bundle/nifi-standard-shared-bom/nifi-dropbox-bundle/nifi-dropbox-processors) org.apache.nifi:nifi-dropbox-processors:jar:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-dropbox-services-api-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-standard-shared-bundle/nifi-standard-shared-bom/nifi-dropbox-bundle/nifi-dropbox-services-api-nar) org.apache.nifi:nifi-dropbox-services-api-nar:nar:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-listed-entity (https://nifi.apache.org/nifi-nar-bundles/nifi-extension-utils/nifi-listed-entity) org.apache.nifi:nifi-listed-entity:jar:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-record (https://nifi.apache.org/nifi-commons/nifi-record) org.apache.nifi:nifi-record:jar:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+
+From: 'Eclipse Foundation' (https://www.eclipse.org)
+
+  - Jakarta Activation API (https://github.com/jakartaee/jaf-api) jakarta.activation:jakarta.activation-api:jar:2.1.2
+    License: EDL 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+
+  - Jakarta XML Binding API (https://github.com/eclipse-ee4j/jaxb-api/jakarta.xml.bind-api) jakarta.xml.bind:jakarta.xml.bind-api:jar:4.0.1
+    License: Eclipse Distribution License - v 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+
+
+
+
+

@@ -1,0 +1,39 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+nifi-jolt-nar
+
+
+From: 'an unknown organization'
+
+  - Jolt Core (http://nexus.sonatype.org/oss-repository-hosting.html/bv-opensource-super-pom/jolt-parent/jolt-core) com.bazaarvoice.jolt:jolt-core:jar:0.1.8
+
+  - Jolt Json Utils (http://nexus.sonatype.org/oss-repository-hosting.html/bv-opensource-super-pom/jolt-parent/json-utils) com.bazaarvoice.jolt:json-utils:jar:0.1.8
+
+  - javax.inject (http://code.google.com/p/atinject/) javax.inject:javax.inject:jar:1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+From: 'Apache NiFi Project' (https://nifi.apache.org/)
+
+  - nifi-jolt-processors (https://nifi.apache.org/nifi-nar-bundles/nifi-standard-shared-bundle/nifi-standard-shared-bom/nifi-jolt-bundle/nifi-jolt-processors) org.apache.nifi:nifi-jolt-processors:jar:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-jolt-transform-json-ui (https://nifi.apache.org/nifi-nar-bundles/nifi-standard-shared-bundle/nifi-standard-shared-bom/nifi-jolt-bundle/nifi-jolt-transform-json-ui) org.apache.nifi:nifi-jolt-transform-json-ui:war:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-jolt-utils (https://nifi.apache.org/nifi-nar-bundles/nifi-standard-shared-bundle/nifi-standard-shared-bom/nifi-jolt-bundle/nifi-jolt-utils) org.apache.nifi:nifi-jolt-utils:jar:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-record (https://nifi.apache.org/nifi-commons/nifi-record) org.apache.nifi:nifi-record:jar:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-standard-shared-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-standard-shared-bundle/nifi-standard-shared-nar) org.apache.nifi:nifi-standard-shared-nar:nar:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+
+
+
+

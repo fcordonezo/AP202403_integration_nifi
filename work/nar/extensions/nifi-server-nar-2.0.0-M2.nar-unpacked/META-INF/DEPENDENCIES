@@ -1,0 +1,110 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+nifi-server-nar
+
+
+From: 'an unknown organization'
+
+  - AspectJ Weaver (https://www.eclipse.org/aspectj/) org.aspectj:aspectjweaver:jar:1.9.21
+    License: Eclipse Public License - v 2.0  (https://www.eclipse.org/org/documents/epl-2.0/EPL-2.0.txt)
+
+
+From: 'Apache NiFi Project' (https://nifi.apache.org/)
+
+  - nifi-custom-ui-utilities (https://nifi.apache.org/nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-web/nifi-custom-ui-utilities) org.apache.nifi:nifi-custom-ui-utilities:jar:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-documentation (https://nifi.apache.org/nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-documentation) org.apache.nifi:nifi-documentation:jar:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-framework-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-framework-bundle/nifi-framework-nar) org.apache.nifi:nifi-framework-nar:nar:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-framework-nar-loading-utils (https://nifi.apache.org/nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-framework-nar-loading-utils) org.apache.nifi:nifi-framework-nar-loading-utils:jar:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-jetty (https://nifi.apache.org/nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-web/nifi-jetty) org.apache.nifi:nifi-jetty:jar:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-jetty-configuration (https://nifi.apache.org/nifi-commons/nifi-jetty-configuration) org.apache.nifi:nifi-jetty-configuration:jar:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-ui-extension (https://nifi.apache.org/nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-web/nifi-ui-extension) org.apache.nifi:nifi-ui-extension:jar:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-web-api (https://nifi.apache.org/nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-web/nifi-web-api) org.apache.nifi:nifi-web-api:war:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-web-content-access (https://nifi.apache.org/nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-web/nifi-web-content-access) org.apache.nifi:nifi-web-content-access:jar:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-web-content-viewer (https://nifi.apache.org/nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-web/nifi-web-content-viewer) org.apache.nifi:nifi-web-content-viewer:war:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-web-docs (https://nifi.apache.org/nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-web/nifi-web-docs) org.apache.nifi:nifi-web-docs:war:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-web-error (https://nifi.apache.org/nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-web/nifi-web-error) org.apache.nifi:nifi-web-error:war:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-web-frontend (https://nifi.apache.org/nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-web/nifi-web-frontend) org.apache.nifi:nifi-web-frontend:war:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+  - nifi-web-ui (https://nifi.apache.org/nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-web/nifi-web-ui) org.apache.nifi:nifi-web-ui:war:2.0.0-M2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+
+From: 'Eclipse Foundation' (https://www.eclipse.org)
+
+  - Jakarta Annotations API (https://projects.eclipse.org/projects/ee4j.ca) jakarta.annotation:jakarta.annotation-api:jar:2.1.1
+    License: EPL 2.0  (http://www.eclipse.org/legal/epl-2.0)
+    License: GPL2 w/ CPE  (https://www.gnu.org/software/classpath/license.html)
+
+  - Jakarta Dependency Injection (https://github.com/eclipse-ee4j/injection-api) jakarta.inject:jakarta.inject-api:jar:2.0.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - OSGi resource locator (https://projects.eclipse.org/projects/ee4j/osgi-resource-locator) org.glassfish.hk2:osgi-resource-locator:jar:1.0.3
+    License: EPL 2.0  (http://www.eclipse.org/legal/epl-2.0)
+    License: GPL2 w/ CPE  (https://www.gnu.org/software/classpath/license.html)
+
+
+From: 'Eclipse Foundation' (https://www.eclipse.org/org/foundation/)
+
+  - Jakarta RESTful WS API (https://github.com/eclipse-ee4j/jaxrs-api) jakarta.ws.rs:jakarta.ws.rs-api:bundle:3.1.0
+    License: EPL-2.0  (http://www.eclipse.org/legal/epl-2.0)
+    License: GPL-2.0-with-classpath-exception  (https://www.gnu.org/software/classpath/license.html)
+
+  - jersey-core-common (https://projects.eclipse.org/projects/ee4j.jersey/jersey-common) org.glassfish.jersey.core:jersey-common:jar:3.1.4
+    License: EPL 2.0  (http://www.eclipse.org/legal/epl-2.0)
+    License: The GNU General Public License (GPL), Version 2, With Classpath Exception  (https://www.gnu.org/software/classpath/license.html)
+    License: Apache License, 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+    License: Public Domain  (https://creativecommons.org/publicdomain/zero/1.0/)
+
+  - jersey-media-jaxb (https://projects.eclipse.org/projects/ee4j.jersey/project/jersey-media-jaxb) org.glassfish.jersey.media:jersey-media-jaxb:jar:3.1.4
+    License: EPL 2.0  (http://www.eclipse.org/legal/epl-2.0)
+    License: GPL2 w/ CPE  (https://www.gnu.org/software/classpath/license.html)
+    License: EDL 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+    License: BSD 2-Clause  (https://opensource.org/licenses/BSD-2-Clause)
+    License: Apache License, 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+    License: Public Domain  (https://creativecommons.org/publicdomain/zero/1.0/)
+    License: Modified BSD  (https://asm.ow2.io/license.html)
+    License: jQuery license  (jquery.org/license)
+    License: MIT license  (http://www.opensource.org/licenses/mit-license.php)
+    License: W3C license  (https://www.w3.org/Consortium/Legal/copyright-documents-19990405)
+
+
+From: 'The Apache Software Foundation' (https://www.apache.org/)
+
+  - Apache Commons Lang (https://commons.apache.org/proper/commons-lang/) org.apache.commons:commons-lang3:jar:3.14.0
+    License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+  - Apache Commons Text (https://commons.apache.org/proper/commons-text) org.apache.commons:commons-text:jar:1.11.0
+    License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+
+

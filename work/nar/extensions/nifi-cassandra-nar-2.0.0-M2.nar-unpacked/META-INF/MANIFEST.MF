@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Created-By: Apache NiFi Nar Maven Plugin 1.5.1
+Build-Jdk-Spec: 21
+Nar-Id: nifi-cassandra-nar
+Nar-Group: org.apache.nifi
+Nar-Version: 2.0.0-M2
+Nar-Dependency-Group: org.apache.nifi
+Nar-Dependency-Id: nifi-cassandra-services-api-nar
+Nar-Dependency-Version: 2.0.0-M2
+Build-Tag: nifi-2.0.0-M2-RC4
+Build-Branch: UNKNOWN
+Build-Revision: 640b7bd
+Build-Timestamp: 2024-01-25T23:56:10Z
+Clone-During-Instance-Class-Loading: false
+
