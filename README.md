@@ -16,7 +16,9 @@ Requiere Java 21 para funcionar.
 ### Seguridad
 Se realizó una implementación de seguridad a través de certificados digitales. Se tiene configurado un keystore y un truststore. Para poder consumir este servicio es vital configurar el keystore del lado del cliente.
 
-Para realizar pruebas en postman se debe incluir el certificado keystore.p12, el cual se encuentra disponible en la carpeta /conf, en la configuración de certificados de postman. El password del keystore es: 75e0fba420318162cfd38ca676f18777
+Para realizar pruebas en postman se debe incluir el certificado keystore.p12, el cual se encuentra disponible en la carpeta /conf, en la configuración de certificados de postman. El password del keystore es: 75e0fba420318162cfd38ca676f18777.
+
+Importante tener en cuenta que el consumo se debe hacer a través de https y no sólo http.
 
 ## Instalación y ejecución
 
@@ -32,7 +34,83 @@ Para iniciar sesión, las credenciales dispuestas son las siguentes:
 Usuario: b24353dd-eb26-4149-b20e-143491e5015f
 Contraseña: CI3o8svONwp6hhrCGYWZhkUkaQ/t/ju5
 
-Una vez iniciada la sesión, podrá encontrar el flujo propuesto para el desarrollo del ejercicio ejercicio. Al hacer clic derecho sobre cualquier parte del lienzo, y seleccionar la opción de *run*, todos los nodos empezaran a funcionar y el servicio será entonces consumible.
+Una vez iniciada la sesión, podrá encontrar el flujo propuesto para el desarrollo del ejercicio ejercicio. 
+
+Antes de iniciar los nodos, deberá hacer clic derecho en cualquier parte del lienzo y selecionar la opción **configure**. Una vez allí, en la pestaña **CONTROLLER SERVICES** habrán dos controladores: Uno es el encargado de toda la parte de recibir y entregar las peticiones HTTP, y el otro es el responsable de entregar la información necesaria a Prometheus. Si alguno de los dos o ambos están en estado **Disabled**, entonces harbá que hacer clic en el ícono de rayo en el controlador correspondiente y, acto seguido, clic en el botón **ENABLE**. Con esto el controlador estará habilitado para trabajar. 
+
+Es importe habilitar estos controladores porque algunos nodos los necesitan para trabajar correctamente.
+
+Ahora sí, para activar los nodos, bastará con hacer clic derecho sobre cualquier parte del lienzo y seleccionar la opción de **►Start**, todos los nodos empezaran a funcionar y el servicio será entonces consumible.
+
+### Contrato Openapi 3.0.1
+La firma puede ser encontrada en **[esta página](https://fcordonezo.github.io/AP202403_integration_nifi/)**
+``` yaml
+openapi: 3.0.1
+info:
+  title: Integración
+  version: 1.0.0
+servers:
+- url: https://localhost:443/api/development/v1/finance-service/integration/calculate-best-finance-products/customers
+  description: Integración de componentes para servicio financiero
+paths:
+  /{customerId}:
+    get:
+      tags:
+      - calculate-best-finance-products
+      summary: Obtener una lsita con los productos financieros aplicables al cliente
+      operationId: getById
+      parameters:
+      - name: customerId
+        in: path
+        required: true
+        schema:
+          type: integer
+          format: int64
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BestFinanceProductsResponseDto'
+components:
+  schemas:
+    BestFinanceProductsResponseDto:
+      type: object
+      properties:
+        customer:
+          type: object
+          properties:
+            customerId:
+              type: integer
+              format: int64
+            fullName:
+              type: string
+            income:
+              type: number
+              format: float
+            city:
+              type: string
+            countryCode:
+              type: string
+            age:
+              type: integer
+              format: int32
+        financeProducts:
+          type: array
+          items:
+            type: object
+            properties:
+              financeProductId:
+                type: integer
+                format: int64
+              code:
+                type: string
+              description:
+                type: string
+              ruleSet:
+                type: string
+```
 
 
 ## Table of Contents
