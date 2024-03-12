@@ -22,6 +22,8 @@ Importante tener en cuenta que el consumo se debe hacer a través de https y no 
 
 ## Instalación y ejecución
 
+#### <a href="https://github.com/fcordonezo/AP202403_documentation/blob/develop/collections/FinanceService_collection.json" download>Descargar colección Postman</a>
+
 Primero que nada, es indispensable [descargar Apache NIFI](https://nifi.apache.org/download/) desde la página oficial.
 
 Una vez descargado, se debe extraer el contenido y, acto seguido, se debe copiar la carpeta /conf que está en este repositodio, como reemplazo a la que se encuentra presente en el directorio extraído del proyecto.  
